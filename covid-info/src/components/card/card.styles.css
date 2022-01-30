@@ -12,6 +12,11 @@
   transition: transform 0.25s ease-out;
 }
 
+.card-container img {
+  height: 64px;
+  width: 64px;
+}
+
 .card-container:hover {
   transform: scale(1.05);
 }

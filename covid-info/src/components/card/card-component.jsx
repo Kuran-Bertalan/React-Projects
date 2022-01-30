@@ -5,7 +5,7 @@ export const Card = (props) => (
   <div className="card-container">
     <img
       alt="country"
-      src={`https://www.countryflags.io/${props.country.CountryCode}/flat/64.png`}
+      src={`https://www.countryflagsapi.com/png/${props.country.CountryCode}`}
     />
     <h2> {props.country.Country}</h2>
     <p> New Confirmed: {props.country.NewConfirmed}</p>
